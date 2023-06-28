@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Libre+Baskerville:wght@400;700&family=Poppins:wght@600&family=Work+Sans:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />    
+    
+<body>
+    <header>
+        <nav class="navbar">
+            <a href=""><img src="./media/logo.png" style="width: auto; height: 150px;" ></a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#Programs" class="nav-link" >Volunteer Programs</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#How" class="nav-link">How It Works</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#FAQs" class="nav-link">FAQs</a>
+                </li>
+            </ul>
+         <!-- for mobile view -->
+            <div class="hamburger" onclick="toggleMenu()">
+                <span class="bar"></span>
+                <span class="bar" onclick="toggleMenu()"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+        <div class="right-side">
+            <div class="searchC">
+                <div class="icon"></div>
+                <div class="input">
+                    <input type="text" placeholder="Search" id="mysearch">
+                </div>
+                <span class="clear" onclick="document.getElementById('mysearch').value=''"></span>
+            </div>
+            <hr>
+            <button class="register">Register</button>
+            <button class="login">Log in</button>
+        </div>
+    </header>
+
+    <section class="Home_pic">
+        <div class="contents">
+            <img src="./media/Picture1.png">
+            <h1>Transforming Lives through Compassion</h1>
+            <button>Learn More</button>
+        </div>
+    </section>
+
+   <section class="feature">
+    <h1>VOLUNTEER CONNECT FEATURED VOLUNTEER EVENTS</h1>
+    <p>Whether you're passionate about environmental conservation, social justice, education, or any other cause close to your heart, we are here to connect you with meaningful volunteer opportunities that align with your interests and skills.</p>
+
+<div class="compare" id="How">
+    <div class="contents">
+        <h1>Collaboration 
+            to other platforms</h1><p>See the advantages of partnerships that can bring mutual benefits and open up new avenues for growth, innovation, and community building</p><button class="connect-b">CONNECT</button>
+        <h2>And</h2>
+        <img src="./media/logo1.png" style="width: auto; height: 60px;">
+        <div class="org">
+            <img src="./media/org1.png" style="width: auto; height: 120px;">
+            <img src="./media/org2.png" style="width: auto; height: 120px;">
+            <img src="./media/org3.png" style="width: auto; height: 120px;">
+        </div>
+
+    </div>
+</section>
+
+<!-- for mobile view -->
+<div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="program-pic"><img src="./media/picture2.png" class="pic2" alt="..." style="width: 677px; height: 413px;" id="pic2"></div>
+        <div class="card-body">
+        
+          <h2>FEEDING: Nutrition In Emergency Program</h2>
+          <p>Barangay Don Bosco, Parañaque</p>
+          <img src="./media/location.png" style="width: auto; height: 43px;">
+          <p>July 1, 2023</p>
+          <img src="./media/calendar.png" style="width: auto; height: 43px;">
+          <p>9:00 AM -1:00 PM</p>
+          <img src="./media/clock.png" style="width: auto; height: 43px;">
+          <p>Brgy. Don Bosco Nutrition Committee!</p>
+          <img src="./media/group.png" style="width: auto; height: 35px;" >
+          <div class="container-bar">
+            <div class="progress-container">
+                <div class="progress-bar">
+                    <span data-width="40%"></span>
+                </div>
+            </div>
+        </div>
+            <h4>3 more volunteers needed</h4>
+        </div>
+      </div>
+
+      <div class="swiper-slide"><div class="program-pic"><img src="./media/picture4.png" class="pic2" alt="..." style="width: 677px; height: 413px;" id="pic2"></div>
+        <div class="card-body">
+        
+          <h2>FEEDING: Nutrition In Emergency Program</h2>
+          <p>Barangay Don Bosco, Parañaque</p>
+          <img src="./media/location.png" style="width: auto; height: 43px;">
+          <p>July 1, 2023</p>
+          <img src="./media/calendar.png" style="width: auto; height: 43px;">
+          <p>9:00 AM -1:00 PM</p>
+          <img src="./media/clock.png" style="width: auto; height: 43px;">
+          <p>Brgy. Don Bosco Nutrition Committee!</p>
+          <img src="./media/group.png" style="width: auto; height: 35px;" >
+          <div class="container-bar">
+            <div class="progress-container">
+                <div class="progress-bar">
+                    <span data-width="20%"></span>
+                </div>
+            </div>
+        </div>
+            <h4>4 more volunteers needed</h4>
+        </div>
+      </div>
+
+      <div class="swiper-slide"><div class="program-pic"><img src="./media/picture5.png" class="pic2" alt="..." style="width: 677px; height: 413px;" id="pic2"></div>
+      <div class="card-body">
+      
+        <h2>FEEDING: Nutrition In Emergency Program</h2>
+        <p>Barangay Don Bosco, Parañaque</p>
+        <img src="./media/location.png" style="width: auto; height: 43px;">
+        <p>July 1, 2023</p>
+        <img src="./media/calendar.png" style="width: auto; height: 43px;">
+        <p>9:00 AM -1:00 PM</p>
+        <img src="./media/clock.png" style="width: auto; height: 43px;">
+        <p>Brgy. Don Bosco Nutrition Committee!</p>
+        <img src="./media/group.png" style="width: auto; height: 35px;" >
+        <div class="container-bar">
+          <div class="progress-container">
+              <div class="progress-bar">
+                  <span data-width="80%"></span>
+              </div>
+          </div>
+      </div>
+          <h4>2 more volunteers needed</h4>
+      </div>
+
+      </div>
+      
+
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+
+
+<!-- for pc view -->
+<div class="Programs" id="Programs">
+    <div class="swiper-wrapper">
+    <div class="swiper-slide">
+    <div class="page1">
+        <img src="./media/Picture2.png" class="pic2" alt="..." style="width:300px; height: 313px;">
+        <div class="card-body">
+          
+          <h2>FEEDING: Nutrition In Emergency Program</h2>
+          <p>Barangay Don Bosco, Parañaque</p>
+          <img src="./media/location.png" style="width: auto; height: 33px;">
+          <p>July 1, 2023</p>
+          <img src="./media/calendar.png" style="width: auto; height: 33px;">
+          <p>9:00 AM -1:00 PM</p>
+          <img src="./media/clock.png" style="width: auto; height: 33px;">
+          <p>Brgy. Don Bosco Nutrition Committee!</p>
+          <img src="./media/group.png" style="width: auto; height: 35px;" >
+          <div class="container-bar">
+            <div class="progress-container">
+                <div class="progress-bar">
+                    <span data-width="40%"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+            <h4>3 more volunteers needed</h4>
+        </div>
+    </div>
+    </div>
+    </div>
+    <div class="Programs2">
+        <div class="swiper-wrapper">
+        <div class="swiper-slide">
+        <div class="page1">
+            <img src="./media/picture4.png" class="pic2" alt="..." style="width:300px; height: 313px;">
+            <div class="card-body">
+              
+              <h2>WaterSearch and Rescue Skills Proficiency</h2>
+              <p>Barangay Don Bosco, Parañaque</p>
+              <img src="./media/location.png" style="width: auto; height: 33px;">
+              <p>July 1, 2023</p>
+              <img src="./media/calendar.png" style="width: auto; height: 33px;">
+              <p>9:00 AM -1:00 PM</p>
+              <img src="./media/clock.png" style="width: auto; height: 33px;">
+              <p>Brgy. Don Bosco Nutrition Committee!</p>
+              <img src="./media/group.png" style="width: auto; height: 35px;" >
+              <div class="container-bar">
+                <div class="progress-container">
+                    <div class="progress-bar">
+                        <span data-width="20%"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+                <h4>4 more volunteers needed</h4>
+            </div>
+        </div>
+        </div>
+        </div>
+        <div class="Programs3">
+            <div class="swiper-wrapper">
+            <div class="swiper-slide">
+            <div class="page1">
+                <img src="./media/picture5.png" class="pic2" alt="..." style="width:300px; height: 313px;">
+                <div class="card-body">
+                  
+                  <h2>Basic Life Support / First Aid Training</h2>
+                  <p>Barangay Don Bosco, Parañaque</p>
+                  <img src="./media/location.png" style="width: auto; height: 33px;">
+                  <p>July 1, 2023</p>
+                  <img src="./media/calendar.png" style="width: auto; height: 33px;">
+                  <p>9:00 AM -1:00 PM</p>
+                  <img src="./media/clock.png" style="width: auto; height: 33px;">
+                  <p>Brgy. Don Bosco Nutrition Committee!</p>
+                  <img src="./media/group.png" style="width: auto; height: 35px;" >
+                  <div class="container-bar">
+                    <div class="progress-container">
+                        <div class="progress-bar">
+                            <span data-width="80%"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                    <h4>2 more volunteers needed</h4>
+                </div>
+            </div>
+            </div>
+            </div>
+         
+    </div>
+   
+    <section class="Discover">
+        <div class="contents">
+            <button>DISCOVER PROGRAMS</button>
+            <img src="./media/Picture3.png" style="Width:1114px;Height: 668px;">
+            <div class="brand">
+            <h4>Featured</h4> 
+            <div class="border3"></div>
+            <img src="./media/Gma.png" style="width: auto; height: 85px;">
+            <img src="./media/Abs-cbn.png" style="width: auto; height: 85px;"> 
+            <img src="./media/CNN.png" style="width: auto; height: 85px;"> 
+            <img src="./media/Trustpilot.png" style="width: auto; height: 85px;"> 
+    
+            </div>
+            <div class="border4"></div>
+        </div>
+    </section>
+    <!-- border in mobile -->
+   <img src="./media/border.png" alt="" id="border12">
+   <img src="./media/border.png" alt="" id="border13"> 
+   <img src="./media/border.png" alt="" id="border14">
+   
+    <section class="bottom-content" id="FAQs">
+        <hr id="bottom-border">
+        <div class="content">
+            <img src="./media/logo.png" style="width: auto; height: 200px;" class="logo">
+
+            <p>At Volunteer Connect, we believe that everyone has the power to make a positive impact in the world. With our user-friendly interface, you can easily explore a wide range of volunteering opportunities tailored to your location, availability, and interests. Whether you have a few hours to spare each week or want to engage in a longer-term commitment, we have diverse options to suit your schedule.</p>
+                <div class="contact">
+                    <p>VC PARAÑAQUE Ltd<br>
+                        Don Galo, 125 - 180 City Road,<br>
+                        Parañaque, 1700,<br>
+                        Philippines.<br>
+                        Registered company: 000001</p>
+                </div>
+               
+                <div class="content2">
+                <div class="learn">
+                    <h2>Learn More</h2>
+                    <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Volunteer Programs">Volunteer Programs</a></li>
+                    <li><a href="#clients">FAQs</a></li>  
+                    <li><a href="#contact">Team's Program</a></li>
+                    <li><a href="#contact">Facebook Volunteer Program</a></li>
+                    </ul>
+                </div>
+                <div class="happy">
+                    <h2>User Happiness</h2>
+                    <ul>
+                    <li><a href="#home">Volunteering Ideas</a></li>
+                    <li><a href="#about">Help Center</a></li>
+                    <li><a href="#clients">Contact Us</a></li>  
+                    <li><a href="#contact">V-Connect Reviews</a></li>
+                    <li><a href="#contact">Privacy Policy</a></li>
+                    <li><a href="#contact">Terms And Conditions</a></li>
+                    </ul>
+                </div>
+            </div>
+                
+                <div class="media">
+                    <hr class="border-media">
+                    <a href="www.facebook.com"><img src="./media/facebook.png"></a>
+                    <a href="www.twitter.com"><img src="./media/twitter.png" style=" width: auto;" height="70px"></a>
+                    <a href="www.instagram.com"><img src="./media/instagram.png" style=" width: auto;" height="70px"></a>
+                    <p>© 2023-2024   Copyright Volunteer Connect.   All Rights Reserved. </p>
+                </div>
+        </div>
+       
+          
+    </section>
+    
+  
+    <!-- <div id="contact">
+        <div class="container">
+            <div class="row">
+                
+                    <h2>Contact Us</h2>
+    
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet" >
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+                
+            </div>
+        </div>
+    
+        <div class="copyright">
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    
+                </div>
+                <p>© 2023-2024 Copyright Volunteer Connect. All Rights Reserved</p>
+        </div>
+    </div> -->
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script src="./java/app.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+    var typed = new Typed(".input", {
+        strings:["Ma. Angela Vizcarra","Heartfelt kindness."," Boundless empathy.","Unwavering compassion."],
+        typeSpeed: 60,
+        backSpeed: 60,
+        loop:true
+    });
+</script> 
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0"
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px"
+    }
+</script>
+
+<script>
+const scriptURL = 'https://script.google.com/macros/s/AKfycbxuUODHOnZfbOz-73xQqIgBagcmxMNFwNnXIODCxKYVLfztiztInf-4M3Ayab0A0u96/exec'
+const form = document.forms['submit-to-google-sheet']
+const msg = document.getElementById("msg")
+
+form.addEventListener('submit', e => {
+  e.preventDefault()
+  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+    .then(response => {
+        msg.innerHTML = "Message sent succesfully"
+        setTimeout(function(){
+            msg.innerHTML =""
+        },5000)
+        form.reset()
+    })
+    .catch(error => console.error('Error!', error.message))
+})
+</script>
+
+<script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+        const icon = document.querySelector('.icon');
+        const search = document.querySelector('.searchC');
+
+        icon.onclick = function(){
+            search.classList.toggle('active');
+        }
+
+        var swiper = new Swiper(".mySwiper", {
+pagination: {
+  el: ".swiper-pagination",
+},
+});
+const spans = document.querySelectorAll('.progress-bar span');
+
+spans.forEach((span) => {
+span.style.width = span.dataset.width;
+span.innerHTML = span.dataset.width;
+});
+
+document.addEventListener('scroll',()=>{
+    const header = document.querySelector('header');
+    const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+     if(window.scrollY > 0 ){
+        header.classList.add('scrolled');
+     }else{
+        header.classList.remove('scrolled');
+     }
+
+    
+})
+
+</script> -->
+</body>
+</html>
