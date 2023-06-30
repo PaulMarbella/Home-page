@@ -600,56 +600,90 @@ color: #3D426A;
     transform: translateX(0%);
     animation: color_anim 1s infinite 0.4s;
   }
+  .card-body{
+    overflow: hidden;
+  }
   .Programs {
-    width: 577px;
-height: 642px;
+    width: 400px;
+height: 560px;
 padding-top: 20px;
-width: 300px;
+overflow: hidden;
 position: relative;
-left: 732px;
-top: -1015px;
+left: 632px;
+top: -1000px;
 border-radius: none;
 
 background: #FFFFFF;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
-
-
-}
+  
+  }
+  .Programs h1{
+    color: #003580;
+    position: absolute;
+    font-family: 'lato';
+    font-size: 15px;
+    width: 520px;
+    font-weight: 700;
+    text-shadow: 6px 2px 5px white  ;
+    left: 20px;
+  }
+  .Programs2 h1{
+    color: #003580;
+    position: absolute;
+    font-family: 'lato';
+    font-size: 15px;
+    width: 520px;
+    font-weight: 700;
+    text-shadow: 6px 2px 5px white  ;
+    left: 20px;
+  }
+  .Programs3 h1{
+    color: #003580;
+    position: absolute;
+    font-family: 'lato';
+    font-size: 15px;
+    width: 520px;
+    font-weight: 700;
+    text-shadow: 6px 2px 5px white  ;
+    left: 20px;
+  }
 .Programs2 {
-    width: 577px;
-height: 642px;
-padding-top: 20px;
-width: 300px;
-position: relative;
-left: 1152px;
-top: -1655px;
-
-background: #FFFFFF;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
-
+    width: 400px;
+    height: 560px;
+    padding-top: 20px;
+    overflow: hidden;
+    position: relative;
+    left: 1052px;
+    top: -1580px;
+    border-radius: none;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+      
 
 }
 .Programs3 {
-    width: 577px;
-height: 642px;
-padding-top: 20px;
-width: 300px;
-position: relative;
-left: 1552px;
-top: -2300px;
-
-background: #FFFFFF;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
-
+    width: 400px;
+    height: 560px;
+    padding-top: 20px;
+    overflow: hidden;
+    position: relative;
+    left: 1475px;
+    top: -2140px;
+    border-radius: none;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+      
 
 }
 .Programs3 h4{
     position: relative;
     left: 10px;
-    bottom: -580px;
+    bottom: -590px;
     font-family: 'lato';
 font-style: normal;
 font-weight: 400;
@@ -661,7 +695,7 @@ color: black;
 .Programs2 h4{
     position: relative;
     left: 10px;
-    bottom: -580px;
+    bottom: -590px;
     font-family: 'Libre Baskerville';
 font-style: normal;
 font-weight: 400;
@@ -673,7 +707,7 @@ color: black;
 .Programs h4{
     position: relative;
     left: 10px;
-    bottom: -580px;
+    top: -380px;
     font-family: 'Libre Baskerville';
 font-style: normal;
 font-weight: 400;
@@ -681,6 +715,31 @@ font-size: 12px;
 line-height: 25px;
 color: black;
 }
+.Programs2 h4{
+    position: relative;
+    left: 10px;
+    top: -380px;
+    font-family: 'Libre Baskerville';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 25px;
+color: black;
+}
+
+.Programs3 h4{
+    position: relative;
+    left: 10px;
+    top: -380px;
+    font-family: 'Libre Baskerville';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 25px;
+color: black;
+}
+
+
 .swiper {
     width: 577px;
     height: 642px;
@@ -698,44 +757,27 @@ color: black;
 }
 
 .swiper-slide {
+      
+    font-size: 18px;
+    background: #fff;
+    display: flex;
   
-  font-size: 18px;
-  background: 
-  #FFFFFF;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  
+  }
+
+  .swiper-slide img {
+display: block;
+width: 50%;
+height: 50%;
 }
 
-.swiper-slide img {
-  display: block;
-  width: 50%;
-  height: 50%;
-}
-.card-body h1{
-width: 369px;
-height: 31px;
-left: 67px;
-top: 70px;
-position: absolute;
-
-font-family: 'Libre Baskerville';
-font-style: normal;
-font-weight: 700;
-font-size: 25px;
-line-height: 31px;
-/* identical to box height */
-
-
-color: #009FE3;
-
-}
 .card-body h2{
-position: absolute;
+position: relative;
 width: 619px;
 height: 31px;
-left: 0%;
-top: -40px;
+left: 20%;
+top: 70px;
 margin-left: 10px;
 
 font-family: 'Libre Baskerville';
@@ -749,104 +791,227 @@ line-height: 31px;
 color: black;
 }
 .card-body p{
-position: relative;
-width: 503px;
-height: 25px;
-left: 60px;
-top: 0px;
-padding: 10px;
-
-font-family: 'Libre Baskerville';
-font-style: normal;
-font-weight: 200;
-font-size: 10px;
-line-height: 15px;
-/* identical to box height */
-
-
-color: black;
-}
+    position: relative;
+    width: 503px;
+    height: 25px;
+    left: 80px;
+    top: 155px;
+    margin: -30px;
+    
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 10px;
+    line-height: 15px;
+    /* identical to box height */
+    
+    
+    color: black;
+    }
 .card-body img{
-position: relative;
-bottom: 20px;
-margin: -10px;
-left: 25px;
-}
+    position: relative;
+    bottom: -120px;
+    margin: 30px;
+    left: -205px;
+    }
 .container-bar{
-display: flex;
-align-content: center;
-justify-items: center;
-flex-direction: column;
-position: absolute;
-left: 10px;
-top: 190px;
-
-}
+    display: flex;
+    align-content: center;
+    justify-items: center;
+    flex-direction: column;
+    position: absolute;
+    left: 10px;
+    top: 410px;
+    
+    }
 .progress-container{
-margin-bottom: 25px;
-
-}
+    margin-bottom: 25px;
+    
+    }
 .container-bar .progress-container .progress-bar{
-position: relative;
-width: 280px;
-height: 20px;
-border-radius: 6px;
-background-color: #DBF0FF;
-box-shadow: 3px 4px 5px 0px rgba(204, 185, 185, .75);
-
-}
+    position: relative;
+    width: 280px;
+    height: 20px;
+    border-radius: 6px;
+    background-color: #DBF0FF;
+    box-shadow: 3px 4px 5px 0px rgba(204, 185, 185, .75);
+    
+    }
 .container-bar .progress-container .progress-bar span{
-position: absolute;
-top: 0;
-left: 0;
-width: 40%;
-height: 100%;
-color: white;
-font-weight: 700;
-font-size: 12px;
-line-height: 1.7;
-text-align: center;
-border-radius: 6px;
-background: #003580;
-transition: width .5s linear;
-
-}
-.card-body{
-position: absolute;
-left: 0;
-top: 360px;
-border: none;
-}
-.pic2{
-position: absolute;
-left: 0px;
-top: -20px;
-margin-top: 0;
-}
-.card-body h4{
-position: absolute;
-width: 503px;
-height: 25px;
-left: 12px;
-top: 223px;
-
-font-family: 'Libre Baskerville';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 25px;
-/* identical to box height */
-
-
-color: #3D426A;
-}
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40%;
+    height: 100%;
+    color: white;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1.7;
+    text-align: center;
+    border-radius: 6px;
+    background: #003580;
+    transition: width .5s linear;
+    
+    }
+  .card-body{
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: none;
+    }
+    .pic2{
+    position: absolute;
+    left: 0px;
+    top: -20px;
+    margin-top: 0;
+    
+    }
+    .card-body h4{
+    position: absolute;
+    width: 503px;
+    height: 25px;
+    left: 12px;
+    top: 463px;
+    
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 25px;
+    /* identical to box height */
+    
+    
+    color: #3D426A;
+    }
 .pc-two{
     position: absolute;
     right: 150px;
-    top: 450px;
+    top: 650px;
+}
+
+
+.card-container {
+  width: 480px;
+  height: 580px;
+  position: relative;
+ 
+ 
+      
+
+}
+
+.Programs  .swiper-slide, .Programs2  .swiper-slide , .Programs3 .swiper-slide{
+  width: 480px;
+  height: 580px;
+
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1)
+}
+
+.Programs .swiper-slide, .Programs2  .swiper-slide , .Programs3 .swiper-slide {
+    font-size: 22px;
+    font-weight: 700;
+    opacity: 1;
+   
+   display: flex;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+   
+  }
+
+.Programs  .card-body{
+    position: absolute;
+    top: 155px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+  
+    background: white;
+    
+    cursor: pointer;
+  
+    
+    pointer-events: none;
+    transform: translateY(100%);
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+.Programs2  .card-body{
+    position: absolute;
+    top: 155px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+  
+    background: white;
+    
+    cursor: pointer;
+  
+    
+    pointer-events: none;
+    transform: translateY(100%);
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+
+.Programs3  .card-body{
+    position: absolute;
+    top: 155px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+  
+    background: white;
+    
+    cursor: pointer;
+  
+    
+    pointer-events: none;
+    transform: translateY(100%);
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+
+
+
+
+.Programs :hover .card-body{
+transform: translateY(0);
+cursor: pointer;
+}
+
+.Programs :hover .swiper-slide {
+transform: translateY(-30%);
+}
+.Programs2 :hover .card-body{
+transform: translateY(0);
+cursor: pointer;
+}
+
+.Programs2 :hover .swiper-slide {
+transform: translateY(-30%);
+}
+.Programs3 :hover .card-body{
+transform: translateY(0);
+cursor: pointer;
+}
+
+.Programs3 :hover .swiper-slide {
+transform: translateY(-30%);
 }
 .Discover{
     position: relative;
+}
+.Discover .contents{
+    position: absolute;
+    top: 250px;
 }
 .Discover button{
     position: absolute;
