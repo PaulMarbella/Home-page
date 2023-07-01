@@ -927,10 +927,11 @@ color: black;
     flex-direction: column;
     align-items: center;
   
-  
+    
     background: white;
     
     cursor: pointer;
+    
   
     
     pointer-events: none;
@@ -1487,7 +1488,7 @@ transform: translateY(-30%);
         visibility: hidden;
     }
     .Discover button{
-        position: absolute;
+        position: relative;
         top: -1510px;
         left: 550px;
         
@@ -1515,7 +1516,7 @@ transform: translateY(-30%);
         visibility: visible;
         position: absolute;
         top: 1210px;
-        left: 450px ;
+        left: 480px ;
         width: 500px;
     }
     .swiper .program-pic  #pic2{
@@ -1527,7 +1528,7 @@ transform: translateY(-30%);
     }
     .bottom-content{
         position: absolute;
-        top: 5110px;
+        top: 2510px;
     }
     .bottom-content .logo{
         position: absolute;
@@ -1569,22 +1570,63 @@ transform: translateY(-30%);
     #border12{
         visibility: visible;
         position: absolute;
-        top: 4760px;
+        top: 1360px;
         left: 120px;
         width: 1200px;
     }
     #border13{
         visibility: visible;
         position: absolute;
-        top: 5450px;
+        top: 2250px;
         left: 120px;
         width: 1200px;
     }
     #border14{
         visibility: visible;
         position: absolute;
-        top: 3990px;
+        top: 2850px;
         left: 120px;
         width: 1200px;
     }
+    .card-body{
+        position: relative;
+        top: 250px;
+        height: 500px;
+    }
+    .card-body h2{
+        position: absolute;
+        top: 50px;
+        left: 60px;
+    }
+  
+    .card-body p{
+        margin: -90px;
+        padding: 10px;
+        position: relative;
+        top: 180px;
+        left: 205px;
+        height: 130px;
+        z-index: 999;
+    }
+   
+    .card-body img{
+        position: relative;
+        left: 30px;
+        top: 110px;
+        
+    }
+    .container-bar{
+        position: absolute;
+        top: 310px;
+        left:60px;
+    }
+    .Programs .swiper-slide, .Programs2  .swiper-slide , .Programs3 .swiper-slide {
+        visibility: hidden;
+    }
+    .card-body h4{
+        position: absolute;
+        top: 340px;
+        left:60px;
+    }
+  
 }
