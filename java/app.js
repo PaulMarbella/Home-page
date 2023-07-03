@@ -1,11 +1,4 @@
 
-let subMenu = document.getElementById("subMenu");
-
- 
-
-function toggleMenu(){
-	subMenu.classList.toggle("open-menu");
-}
 
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
@@ -47,3 +40,5 @@ const swiper = new Swiper('.swiper', {
 	  el: '.swiper-scrollbar',
 	},
   });
+
+

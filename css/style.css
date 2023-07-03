@@ -85,59 +85,7 @@ header{
     position: relative;
     
 }
-.sub-menu-wrap{
-    position: absolute;
-    right: -9%;
-    top: 34.2%;
-    overflow: hidden;
-    max-height: 0px;
-    transition: max-height 0.5s;
-}
-.sub-menu-wrap.open-menu{
-    max-height: 200px;
-}
 
-.sub-menu{
-    background: #1e5631;
-    width: 50%;
-    height: 15%;
-    cursor: pointer;
-    font-family:'Courier New', Courier, monospace;
-    border: 2px solid black;
-    
-}
-.sub-menu-link{
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    color: white;
-    margin-top: -20px;
-    margin-bottom: -30px;
-}
-.sub-menu-link1{
-    display: flex;
-    align-items: right;
-    
-    text-decoration: none;
-    color: white;
-    margin-left: 0px;
-    margin: -10;
-}
-.sub-menu-link p{
-    width: 10%;
-    cursor: pointer;
-    
-
-}
-.sub-menu-link i{
-    position: absolute;
-    right: 80%;
-    top: 26.2%;
-}
-
-.sub-menu-link p:hover {
-    font-weight: 600;
-}
 .searchC{
     
     position: absolute;
@@ -1024,7 +972,7 @@ transform: translateY(-30%);
     background: #FFFFFF;
     
     border-radius: 13px;
-    
+    cursor: pointer;
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
@@ -1305,6 +1253,61 @@ transform: translateY(-30%);
 }
 #border14{
     visibility: hidden;
+}
+.sub-menu-wrap{
+    position: fixed;
+    width: 300px;
+    top: 130px;
+    left: 18%;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+.sub-menu-wrap.open-menu1{
+    max-height: 400px;
+}
+.sub-menu{
+    background: #FFFFFF;
+    padding: 20px;
+    margin: 10px;
+}
+.sub-menu hr{
+    border: 0;
+    height: 1px;
+    width: 100%;
+    background: #ccc;
+    margin: 15px 0 10px;
+}
+.sub-menu-link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #ccc;
+    margin: 12px 0;
+}
+.sub-menu-link p{
+    width: 100%;
+    color: #000000;
+
+}
+.sub-menu-link img{
+    border-radius: 50%;
+    padding: 8px;
+    margin-right: 15px;
+    background: #ccc;
+}
+.sub-menu-link span{
+    font-size: 22px;
+    transition: transform 0.5s;
+
+}
+.sub-menu-link:hover span{
+    transform:  translateX(5px);
+    color: #1668BD;
+}
+.sub-menu-link:hover p{
+    font-weight: 700;
+    color: #1668BD;
 }
 
 

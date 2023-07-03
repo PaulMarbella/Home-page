@@ -13,10 +13,10 @@
 <body>
     <header>
         <nav class="navbar">
-            <a href=""><img src="./media/logo.png" style="width: auto; height: 150px;" ></a>
+            <a ><img src="./media/logo.png" style="width: auto; height: 150px;"></a>
             <ul class="nav-menu">
                 <li class="nav-item">
-                    <a href="#Programs" class="nav-link" >Volunteer Programs</a>
+                    <a  class="nav-link" onclick="toggleMenu1()">Volunteer Programs</a>
                 </li>
                 <li class="nav-item">
                     <a href="#How" class="nav-link">How It Works</a>
@@ -225,7 +225,7 @@
                 <div class="Programs3" id="Programs">
                     <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img src="./media/picture5.png" class="pic2" alt="..." style="width:400px; height: 590px;">
+                        <img src="./media/Picture5.png" class="pic2" alt="..." style="width:400px; height: 590px;">
                         <h1>Basic Life Support / First Aid Training</h1>
                         <div class="card-body">
                           
@@ -327,6 +327,25 @@
        
           
     </section>
+
+    <div class="sub-menu-wrap" id="subMenu1">
+        <div class="sub-menu">
+                <hr>
+                <a href="#" class="sub-menu-link">
+                    <img  src="./media/logo2.png" style=" width: auto;" height="30px">
+                    <p>page 1</p>
+                    <span>></span>
+                </a>
+
+                <a href="#" class="sub-menu-link">
+                    <img  src="./media/logo2.png" style=" width: auto;" height="30px">
+                    <p>page 2</p>
+                    <span>></span>
+                </a>
+            </div>
+        </div>
+
+    </div>
     
   
     <!-- <div id="contact">
@@ -451,5 +470,12 @@ document.addEventListener('scroll',()=>{
 })
 
 </script> -->
+<script>
+      let subMenu1 = document.getElementById("subMenu1");
+
+function toggleMenu1(){
+  subMenu1.classList.toggle("open-menu1");
+}
+</script>
 </body>
 </html>
