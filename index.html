@@ -440,7 +440,7 @@
                             <button>Sign In</button>
                         </div>  
                         <div class="overlay-panel overlay-right">
-                            
+                            <h2 onclick="remove1()">X</h2>
                             <h1>New Here?</h1>
                             <p>We'll get you signed up in no time</p>
                             <button>Sign Up</button>
@@ -512,6 +512,7 @@
                         <button>Sign In</button>
                     </div>  
                     <div class="overlay-panel overlay-right">
+                        <h2 onclick="remove2()">X</h2>
                         <h1>New Here?</h1>
                         <p>We'll get you signed up in no time</p>
                         <button>Sign Up</button>
@@ -698,7 +699,9 @@ function toggleMenu3(){
   volunteer.classList.toggle("open-menu3");
   organization.classList.remove("open-menu4");
 }
-
+function remove1(){
+    volunteer.classList.toggle("open-menu3");
+}
 </script>
 <script>
     let organization = document.getElementById("organization1");
@@ -708,6 +711,9 @@ function toggleMenu3(){
       volunteer.classList.remove("open-menu3");
     
     }
+    function remove2(){
+    organization.classList.toggle("open-menu4");
+}
  
     </script>
  <!-- js code -->

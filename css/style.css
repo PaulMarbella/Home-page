@@ -1672,39 +1672,6 @@ transform: translateY(-30%);
 }
 
 /* Media query for small screens (up to 576px) */
-@media screen and (max-width: 576px) {
-    .container {
-      width: 100%;
-      height: auto;
-      max-width: 350px;
-    }
-  
-    .form-container {
-      width: 100%;
-      padding: 0px 10px;
-    }
-  
-    .overlay-container {
-      left: 0;
-      width: 100%;
-      max-width: 250px;
-    }
-  
-    .overlay {
-      width: 300%;
-    }
-  
-    .overlay-left {
-      right: 50%;
-      transform: translateX(0%);
-    }
-  
-    .overlay-right {
-      right: 50%;
-      transform: translateX(0%);
-    }
-  }
-
 
 
   
@@ -1750,10 +1717,20 @@ transform: translateY(-30%);
     header{
         position: sticky;
     }
+    .sub-menu-organization{
+        position: absolute;
+        top: 250px;
+        left: 150px;
+    }
+    .sub-menu-volunteer{
+        position: absolute;
+        top: 250px;
+        left: 150px;
+    }
     .hamburger{
         display: block;
         position: fixed;
-        left: 1310px;
+        left: 1600px;
     
 
     }
@@ -1771,53 +1748,46 @@ transform: translateY(-30%);
     }
     .nav-menu{
         position:fixed;
-        left: -270%;
+        left: -550%;
         top: 120px;
-       margin-left: -50px;
         flex-direction: column;
         background-color: white;
-        min-width: 200%;
-        text-align: center;
-        justify-self: center;
+        width: 100%;
+ 
         transition: 0.3s;
         color: black;
+        gap: 0;
+        margin-right: 500px;
       
         
         
 
     }
     .nav-item a{
-        font-size: 40px;
+        font-size: 30px;
         position: relative;
-        left: -560px;
-        align-items: left;
-        justify-content: left;
-        text-align: left;
+        left: 760px;
+        text-align: center;
+        align-self: center;
+      
     }
     .nav-item{
-        margin: 26px 0;
+        margin: 17px 0;
         
        
     }
     .nav-menu.active{
-        left: 20px;
+        left: 15px;
+        margin-left: -25px;
         
-       
+
     }
     
     .sub-menu-wrap.open-menu{
         max-height: 500px;
     }
     
-    .sub-menu{
-        background: red;
-        width: 40%;
-        height: 15%;
-        cursor: pointer;
-        font-family:'Courier New', Courier, monospace;
-        border: 2px solid black;
-        
-    }
+   
     .logo{
         position: absolute;
         width: 100px;
@@ -1842,7 +1812,7 @@ transform: translateY(-30%);
     .right-side button{
         position: relative;
         top: 40px;
-        left: 50px;
+        left: 320px;
     
     }
     .bar{
@@ -1851,16 +1821,16 @@ transform: translateY(-30%);
         top: 10px;
     }
     .Home_pic img{
-        width: 1500px;
+        width: 1800px;
     }
     .Home_pic h1{
         position: absolute;
-        left: 20px;
+        left: 240px;
         font-size: 35px;
     }
     .Home_pic button{
         position: absolute;
-        left: 650px;
+        left: 850px;
     }
     .right-side{
         position: relative;
@@ -1869,7 +1839,7 @@ transform: translateY(-30%);
     }
     .right-side .searchC{
         position: relative;
-        left: -80px;
+        left: 230px;
         top: 90px;
         
         
@@ -1879,7 +1849,7 @@ transform: translateY(-30%);
     }
     .searchC.active{
         position: relative;
-        left: -220px;
+        left: -20px;
 
     }
     .Programs, .Programs2, .Programs3{
@@ -1888,33 +1858,34 @@ transform: translateY(-30%);
     .Discover button{
         position: relative;
         top: -1510px;
-        left: 550px;
+        left: 750px;
         
     }
     .feature{
         position: absolute;
-        left: -80px;
+        left: 110px;
         bottom: 350px;
     }
     .Discover img{
         position: absolute;
-        left: 190px;
+        left: 390px;
         top: -580px;
     }
     .Discover .brand{
         position: absolute;
         top: 210px;
-        left: 350px;
+        left: 550px;
     }
     .bottom-content hr{
         position: absolute;
         top: 3110px;
+        left: 350px;
     }
     .swiper{
         visibility: visible;
         position: absolute;
         top: 1210px;
-        left: 480px ;
+        left: 680px ;
         width: 500px;
     }
     .swiper .program-pic  #pic2{
@@ -1930,32 +1901,32 @@ transform: translateY(-30%);
     }
     .bottom-content .logo{
         position: absolute;
-        left: 360px;
+        left: 560px;
         top: 3110px;
     }
     .bottom-content p{
         text-align: center;
         position: absolute;
-        left: 330px;
+        left: 530px;
         top: 3370px;
     }
     .bottom-content .contact p{
         position: absolute;
         top: 3610px;
-        left: 280px;
+        left: 460px;
 
     }
     .bottom-content .content2{
         position: absolute;
         top: 410px;
-       right: 260px;
+       right: 40px;
 
     }
     .media{
         display: inline-flex;
         position: absolute;
         top: 950px;
-        left: 450px;
+        left: 650px;
     }
     .media p{
         position: absolute;
@@ -1969,21 +1940,21 @@ transform: translateY(-30%);
         visibility: visible;
         position: absolute;
         top: 1360px;
-        left: 120px;
+        left: 320px;
         width: 1200px;
     }
     #border13{
         visibility: visible;
         position: absolute;
         top: 2250px;
-        left: 120px;
+        left: 320px;
         width: 1200px;
     }
     #border14{
         visibility: visible;
         position: absolute;
         top: 2850px;
-        left: 120px;
+        left: 320px;
         width: 1200px;
     }
     .card-body{
@@ -2026,7 +1997,12 @@ transform: translateY(-30%);
         top: 340px;
         left:60px;
     }
-  
+    .sub-menu-registerLogin{
+        position: fixed;
+        left: 1230px;
+        top: 120px;
+    }
+   
 }
 
 @media only screen and (max-width: 480px) {
@@ -2042,13 +2018,7 @@ transform: translateY(-30%);
 		background-color: #0070C0;
 	}
 
-	.bar:nth-child(2) {
-		width: 20px;
-	}
 
-	.bar:nth-child(3) {
-		width: 15px;
-	}
 	
 	.nav-item {
 		position: static;
