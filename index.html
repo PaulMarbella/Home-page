@@ -230,7 +230,7 @@
                 <div class="Programs3" id="Programs">
                     <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img src="./media/Picture5.png" class="pic2" alt="..." style="width:400px; height: 590px;">
+                        <img src="./media/picture5.png" class="pic2" alt="..." style="width:400px; height: 590px;">
                         <h1>Basic Life Support / First Aid Training</h1>
                         <div class="card-body">
                           
@@ -358,13 +358,13 @@
             <a  class="sub-menu-link">
                 <img  src="./media/logo2.png" style=" width: auto;" height="30px" onclick="toggleMenu4()">
                 <p onclick="toggleMenu4()">Organization</p>
-                <span>></span>
+                <span onclick="toggleMenu4()">></span>
             </a>
 
             <a class="sub-menu-link">
                 <img  src="./media/logo2.png" style=" width: auto;" height="30px" onclick="toggleMenu3()">
                 <p onclick="toggleMenu3()">Volunteer</p>
-                <span>></span>
+                <span onclick="toggleMenu3()">></span>
             </a>
         </div>
     </div>
@@ -440,6 +440,7 @@
                             <button>Sign In</button>
                         </div>  
                         <div class="overlay-panel overlay-right">
+                            
                             <h1>New Here?</h1>
                             <p>We'll get you signed up in no time</p>
                             <button>Sign Up</button>
@@ -458,7 +459,7 @@
 <div class="sub-menu-organization" id="organization1">
     <div class="sub-menu-register">
 
-        <div class="container" id="container">
+        <div class="container" id="container1">
             <div class="form-container sign-up-container">
                 <form action="#">
                     <h1>Create  an Account</h1>
@@ -503,7 +504,7 @@
                     <button>Sign In</button>
                 </form>
             </div>
-            <div class="overlay-container" id="overlayCon">
+            <div class="overlay-container" id="overlayCon1">
                 <div class="overlay">
                     <div class="overlay-panel overlay-left">
                         <h1>Already have <br> an Account?</h1>
@@ -516,7 +517,7 @@
                         <button>Sign Up</button>
                     </div>
                 </div>
-                <button id="overlayBtn"></button>
+                <button id="overlayBtn1"></button>
             </div>
         </div>
         </div>
@@ -697,6 +698,7 @@ function toggleMenu3(){
   volunteer.classList.toggle("open-menu3");
   organization.classList.remove("open-menu4");
 }
+
 </script>
 <script>
     let organization = document.getElementById("organization1");
@@ -706,6 +708,7 @@ function toggleMenu3(){
       volunteer.classList.remove("open-menu3");
     
     }
+ 
     </script>
  <!-- js code -->
  <script>
@@ -716,6 +719,17 @@ function toggleMenu3(){
 
 overlayBtn.addEventListener('click', () => {
 container.classList.toggle('right-panel-active');
+});
+
+</script>
+<script>
+        
+    const container1 = document.getElementById('container1');
+    const overlayCon1 = document.getElementById('overlayCon1');
+    const overlayBtn1 = document.getElementById('overlayBtn1');
+
+overlayBtn1.addEventListener('click', () => {
+container1.classList.toggle('right-panel-active');
 });
 
 </script>

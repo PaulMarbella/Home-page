@@ -1275,12 +1275,14 @@ transform: translateY(-30%);
 .sub-menu-registerLogin{
     position: fixed;
     width: 310px;
-    top: 140px;
+    top: 95px;
+    
     left: 81%;
-    max-height: 0px;
+    max-height:0px;
     transition: max-height 0.5s;
-    overflow: hidden;
+   overflow: hidden;
     cursor: pointer;
+    z-index: 999;
 }
 .sub-menu-wrap.open-menu1{
     max-height: 200px;
@@ -1496,12 +1498,12 @@ transform: translateY(-30%);
     z-index: 9;
 }
 
-.sub-menu-register #overlayBtn {
+.sub-menu-register #overlayBtn,#overlayBtn1  {
     cursor: pointer;
     position: absolute;
-    left: 50%;
-    top: 304px;
-    transform: translateX(-50%);
+    left: 54%;
+    top: 390px;
+    transform: translateX(-40%);
     width: 143.67px;
     height: 40px;
     border: 1px solid #fff;
@@ -1541,6 +1543,42 @@ transform: translateY(-30%);
     right: 0;
     transform: translateX(0%);
 }
+.overlay-right button{
+    position: absolute;
+    top: 390px;
+    left: 60px;
+}
+.overlay-left button{
+    position: absolute;
+    top: 390px;
+    left: 60px;
+    
+}
+.overlay-right h2{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+}
+.overlay-right p{
+    position: absolute;
+    left: 20px;
+   
+}
+.overlay-right h1{
+    position: absolute;
+    top: 250px;
+    left: 50px;
+}
+.overlay-left p{
+    position: absolute;
+    left: 50px;
+}
+.overlay-left h1{
+    position: absolute;
+    top: 200px;
+    left: 50px;
+}
 
 .sub-menu-register .overlay-panel h1 {
     color: #fff;
@@ -1568,7 +1606,7 @@ transform: translateY(-30%);
 }
 
 .right-panel-active  .overlay-left{
-    transform: translateX(25%);
+    transform: translateX(32%);
 }
 
 .right-panel-active  .overlay-right{
@@ -1587,33 +1625,40 @@ transform: translateY(-30%);
     
 }
 
+.sub-menu-volunteer .container{
+    width: 1200px;
+    height: 700px;
+}
+.sub-menu-organization .container{
+    width: 1200px;
+    height: 700px;
+}
 .sub-menu-volunteer{
     position: absolute;
     width: 1600px;
-    bottom:170px;
-    left: 28%;
+    bottom:50px;
+    left: 18%;
     max-height: 0px;
-    overflow: hidden;
-    transition: max-height 0.5s;
+   overflow: hidden;
+    transition: max-height .5s;
     z-index: 99;
 }
 .sub-menu-volunteer.open-menu3{
-    max-height: 500px;
+    max-height: 1500px;
 }
 .sub-menu-organization{
     position: absolute;
     width: 1600px;
-    bottom:170px;
-    left: 28%;
+    bottom:50px;
+    left: 18%;
     max-height: 0px;
-   overflow: hidden;
-    transition: max-height 0.5s;
+    overflow: hidden;
+    transition: max-height .5s;
     z-index: 99;
 }
 .sub-menu-organization.open-menu4{
-    max-height: 500px;
+    max-height: 1500px;
 }
-
 
 @keyframes show{
     0%, 50%{
