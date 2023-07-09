@@ -582,8 +582,8 @@ height: 560px;
 padding-top: 20px;
 overflow: hidden;
 position: absolute;
-left: 632px;
-top: -1000px;
+left: 232px;
+top: -250px;
 border-radius: none;
 
 background: #FFFFFF;
@@ -627,8 +627,8 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     padding-top: 20px;
     overflow: hidden;
     position: relative;
-    left: 1052px;
-    top: -1580px;
+    left: 752px;
+    top: -830px;
     border-radius: none;
     
     background: #FFFFFF;
@@ -643,8 +643,8 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     padding-top: 20px;
     overflow: hidden;
     position: relative;
-    left: 1475px;
-    top: -2140px;
+    left: 1375px;
+    top: -1400px;
     border-radius: none;
     
     background: #FFFFFF;
@@ -1299,7 +1299,7 @@ transform: translateY(-30%);
     transition: max-height 0.5s;
    overflow: hidden;
     cursor: pointer;
-    z-index: 999;
+    z-index: 99;
 }
 .sub-menu-wrap.open-menu1{
     max-height: 200px;

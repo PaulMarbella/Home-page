@@ -265,6 +265,23 @@ nav ul li a:hover::after{
 
 
 }
+.title h2{
+    font-family: 'Lato';
+font-size: 40px;
+font-weight: 500;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: center;
+position: absolute;
+width: 664px;
+height: 48px;
+top: 200px;
+left: 652px;
+color: #0070C0;
+
+}
+
+
 .Home_pic img{
     width: 100%;
     height: 100vh;
@@ -582,10 +599,10 @@ height: 560px;
 padding-top: 20px;
 overflow: hidden;
 position: absolute;
-left: 632px;
-top: -1000px;
+left: 232px;
+top: -250px;
 border-radius: none;
-
+visibility: hidden;
 background: #FFFFFF;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
@@ -627,8 +644,8 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     padding-top: 20px;
     overflow: hidden;
     position: relative;
-    left: 1052px;
-    top: -1580px;
+    left: 532px;
+    top: -890px;
     border-radius: none;
     
     background: #FFFFFF;
@@ -643,8 +660,8 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     padding-top: 20px;
     overflow: hidden;
     position: relative;
-    left: 1475px;
-    top: -2140px;
+    left: 1075px;
+    top: -1450px;
     border-radius: none;
     
     background: #FFFFFF;
@@ -1041,7 +1058,7 @@ transform: translateY(-30%);
         position: absolute;
     width: 802px;
     height: 161px;
-    left: 648px;
+    left: 598px;
     top: -1039px;
     
     background: #D9D9D9;
