@@ -42,3 +42,8 @@ const swiper = new Swiper('.swiper', {
   });
 
 let training = document.getElementById("")
+
+
+
+
+

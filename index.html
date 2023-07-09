@@ -24,7 +24,7 @@
                     <a  class="nav-link" onclick="toggleMenu1()">Volunteer Programs</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#How" class="nav-link">How It Works</a>
+                    <a href="./HowItWorks.html" class="nav-link">How It Works</a>
                 </li>
                 <li class="nav-item">
                     <a href="#FAQs" class="nav-link">FAQs</a>
@@ -383,78 +383,71 @@
 <div class="sub-menu-volunteer" id="volunteer1">
     <div class="sub-menu-register">
             
-            <div class="container" id="container">
-                <div class="form-container sign-up-container">
-                    <form action="#">
-                        <h1>Create  an Account</h1>
-                        <div class="infield">
-                            <input type="text" placeholder="First Name" />
-                            <label></label>
-                            <i class="fa-solid fa-user" style="color: grey;"></i>
-                        </div>
-                        <div class="infield">
-                            <input type="text" placeholder="Last Name" />
-                            <label></label>
-                            <i class="fa-solid fa-user" style="color: grey;"></i>
-                        </div>
-                        <div class="infield">
-                            <input type="email" placeholder="Email" name="email"/>
-                            <label></label>
-                            <i class="fa-solid fa-envelope" style="color: grey;"></i>
-                        </div>
-                        <div class="infield">
-                            <input type="password" id="password" placeholder="Password" />
-                            <label></label>
-                            <i class="fas fa-eye" id="togglePassword"></i>
-                        </div>
-                        <div class="infield">
-                            <input type="password" id="confirmPassword" placeholder="Confirm Password" />
-                            <label></label>
-                            <i class="fas fa-eye" id="toggleConfirmPassword"></i>
-                        </div>
-                        <button>Sign Up</button>
-                        <p class="disclaimer-text">By clicking "Sign Up" you agree to our <a href="#" class="orange-link">Terms of Use</a>, <a href="#"
-                             class="orange-link">Privacy Policy</a>, and <a href="#" class="orange-link">Disclaimer</a></p>
-                    </form>
-                </div>
-                <div class="form-container sign-in-container">
-                    <form action="#">
-                        <h1>Login to <img src="media/logo2.png" class="logo2"><span class="cnct">Connect </span> </h1>
-                        <div class="infield">
-                            <input type="email" placeholder="Email" name="email"/>
-                            <label></label>
-                            <i class="fa-solid fa-envelope" style="color: grey;"></i>
-                        </div>
-                        <div class="infield">
-                            <input type="password" id="password" placeholder="Password" />
-                            <label></label>
-                            <i class="fa-solid fa-lock" style="color: grey;"></i>
-                        </div>
-                        <a href="#" class="forgot">Forgot your password?</a>
-                        <button>Sign In</button>
-                    </form>
-                </div>
-                <div class="overlay-container" id="overlayCon">
-                    <div class="overlay">
-                        <div class="overlay-panel overlay-left">
-                            <h1>Already have <br> an Account?</h1>
-                            <p>Let's get you logged back in</p>
-                            <button>Sign In</button>
-                        </div>  
-                        <div class="overlay-panel overlay-right">
-                            <h2 onclick="remove1()">X</h2>
-                            <h1>New Here?</h1>
-                            <p>We'll get you signed up in no time</p>
-                            <button>Sign Up</button>
-                        </div>
+        <div class="container">
+            <div class="signin-signup">
+                <form action="" class="sign-in-form">
+                    <h1>Login to <img src="./media/logo2.png" class="logo2"><span class="cnct">Connect </span> </h1>
+                    <div class="input-field">
+                        <i class="fas fa-user"></i>
+                        <input type="text" placeholder="Email Address">
                     </div>
-                    <button id="overlayBtn"></button>
+                    <div class="input-field">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" placeholder="Password">
+                    </div>
+                    <input type="submit" value="Login" class="btn">
+                    <p class="account-text">Don't have an account? <a href="#" id="sign-up-btn2">Sign up</a></p>
+                </form>
+                <form action="" class="sign-up-form">   
+                    <h2 class="title">Volunteer</h2>
+                    <div class="input-field">
+                        <i class="fas fa-user"></i>
+                        <input type="text" placeholder="Username">
+                    </div>
+                    <div class="input-field">
+                        <i class="fas fa-envelope"></i>
+                        <input type="text" placeholder="Email">
+                    </div>
+                    <div class="input-field">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" placeholder="Password">
+                    </div>
+                    <div class="input-field">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" placeholder=" Confirm Password">
+                    </div>
+                    <input type="submit" value="Sign up" class="btn">
+                    <p class="disclaimer-text">By clicking "Sign Up" you agree to our <a href="#" class="orange-link"
+                        onclick="showDisclaimerPopup()">Terms of Use</a>, <a href="#" class="orange-link"
+                        onclick="showDisclaimerPopup()">Privacy Policy</a>, and <a href="#" class="orange-link"
+                        onclick="showDisclaimerPopup()">Disclaimer</a></p>
+                    <p class="account-text"> Already have an account? <a href="#" id="sign-in-btn2">Sign in</a></p>
+                </form>
+            </div>
+            <div class="panels-container">
+                <div class="panel left-panel">  
+                    <div class="content">
+                        <h3>Already have an account? </h3>
+                        <p>Let's get you back logged in!</p>
+                        <button class="btn" id="sign-in-btn">Sign in</button>
+                    </div>
+                    <img src="signin.svg" alt="" class="image">
+                </div>
+                <div class="panel right-panel">
+                    <div class="content">
+                        <h3>New Here?</h3>
+                        <p>We'll get you signed up in no time!</p>
+                        <button class="btn" id="sign-up-btn">Sign up</button>
+                        
+                    </div>
+                    <img src="signup.svg" alt="" class="image">
                 </div>
             </div>
         </div>
+        </div>
     </div>
 
-</div>
+
 
 
 <!-- register organization -->
@@ -462,65 +455,68 @@
     <div class="sub-menu-register">
 
         <div class="container" id="container1">
-            <div class="form-container sign-up-container">
-                <form action="#">
-                    <h1>Create  an Account</h1>
-                    <div class="infield">
-                        <input type="text" placeholder="Add the name of your organization here" />
-                        <label></label>
-                        <i class="fa-solid fa-sitemap" style="color: grey;"></i>
+            <div class="signin-signup">
+                <form action="" class="sign-in-form">
+                    <h1>Login to <img src="./media/logo2.png" class="logo2"><span class="cnct">Connect </span> </h1>
+                    <div class="input-field">
+                        <i class="fas fa-user"></i>
+                        <input type="text" placeholder="Add the name of your foundation here">
                     </div>
-                    <div class="infield">
-                        <input type="email" placeholder="Organization Email" name="email"/>
-                        <label></label>
-                        <i class="fa-solid fa-envelope" style="color: grey;"></i>
+                    <div class="input-field">
+                        <i class="fas fa-envelope"></i>
+                        <input type="text" placeholder="Organization Email">
                     </div>
-                    <div class="infield">
-                        <input type="password" id="password" placeholder="Password" />
-                        <label></label>
-                        <i class="fas fa-eye" id="togglePassword"></i>
+                    <div class="input-field">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" placeholder="Password">
                     </div>
-                    <div class="infield">
-                        <input type="password" id="confirmPassword" placeholder="Confirm Password" />
-                        <label></label>
-                        <i class="fas fa-eye" id="toggleConfirmPassword"></i>
+                    <input type="submit" value="Login" class="btn">
+                    <p class="account-text">Don't have an account? <a href="#" id="sign-up-btn21">Sign up</a></p>
+                </form>
+                <form action="" class="sign-up-form">   
+                    <h2 class="title">Organization</h2>
+                    <div class="input-field">
+                        <i class="fas fa-user"></i>
+                        <input type="text" placeholder="Add the name of your organization here">
                     </div>
-                    <button>Sign Up</button>
-                    <p class="disclaimer-text">By clicking "Sign Up" you agree to our <a href="#" class="orange-link">Terms of Use</a>, <a href="#" class="orange-link">Privacy Policy</a>, and <a href="#" class="orange-link">Disclaimer</a></p>
+                    <div class="input-field">
+                        <i class="fas fa-envelope"></i>
+                        <input type="text" placeholder="Organization Email">
+                    </div>
+                    <div class="input-field">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" placeholder="Password">
+                    </div>
+                    <div class="input-field">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" placeholder=" Confirm Password">
+                    </div>
+                    <input type="submit" value="Sign up" class="btn">
+                    <p class="disclaimer-text">By clicking "Sign Up" you agree to our <a href="#" class="orange-link"
+                        onclick="showDisclaimerPopup()">Terms of Use</a>, <a href="#" class="orange-link"
+                        onclick="showDisclaimerPopup()">Privacy Policy</a>, and <a href="#" class="orange-link"
+                        onclick="showDisclaimerPopup()">Disclaimer</a></p>
+                    <p class="account-text"> Already have an account? <a href="#" id="sign-in-btn21">Sign in</a></p>
                 </form>
             </div>
-            <div class="form-container sign-in-container">
-                <form action="#">
-                    <h1>Login to <img src="media/logo2.png" class="logo2"><span class="cnct">Connect </span> </h1>
-                    <div class="infield">
-                        <input type="email" placeholder="Email" name="email"/>
-                        <label></label>
-                        <i class="fa-solid fa-envelope" style="color: grey;"></i>
+            <div class="panels-container">
+                <div class="panel left-panel">
+                    <div class="content">
+                        <h3>Already have an account? </h3>
+                        <p>Let's get you back logged in!</p>
+                        <button class="btn" id="sign-in-btn1">Sign in</button>
                     </div>
-                    <div class="infield">
-                        <input type="password" id="password" placeholder="Password" />
-                        <label></label>
-                        <i class="fa-solid fa-lock" style="color: grey;"></i>
-                    </div>
-                    <a href="#" class="forgot">Forgot your password?</a>
-                    <button>Sign In</button>
-                </form>
-            </div>
-            <div class="overlay-container" id="overlayCon1">
-                <div class="overlay">
-                    <div class="overlay-panel overlay-left">
-                        <h1>Already have <br> an Account?</h1>
-                        <p>Let's get you logged back in</p>
-                        <button>Sign In</button>
-                    </div>  
-                    <div class="overlay-panel overlay-right">
-                        <h2 onclick="remove2()">X</h2>
-                        <h1>New Here?</h1>
-                        <p>We'll get you signed up in no time</p>
-                        <button>Sign Up</button>
-                    </div>
+                    <img src="signin2.svg" alt="" class="image">
                 </div>
-                <button id="overlayBtn1"></button>
+                <div class="panel right-panel">
+                    <div class="content">
+                        <h3>New Here?</h3>
+                        <p>We'll get you signed up in no time!</p>
+                        <button class="btn" id="sign-up-btn1">Sign up</button>
+                        
+                    </div>
+                    <img src="signup2.svg" alt="" class="image">
+                </div>
             </div>
         </div>
         </div>
@@ -594,6 +590,7 @@
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 <script src="./java/app.js"></script>
+<script src="./java/app1.js"></script>
 <!-- <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 <script>
     var typed = new Typed(".input", {
@@ -718,54 +715,11 @@ function remove1(){
 }
  
     </script>
+   
  <!-- js code -->
- <script>
-        
-    const container = document.getElementById('container');
-    const overlayCon = document.getElementById('overlayCon');
-    const overlayBtn = document.getElementById('overlayBtn');
 
-overlayBtn.addEventListener('click', () => {
-container.classList.toggle('right-panel-active');
-});
+ 
 
-</script>
-<script>
-        
-    const container1 = document.getElementById('container1');
-    const overlayCon1 = document.getElementById('overlayCon1');
-    const overlayBtn1 = document.getElementById('overlayBtn1');
-
-overlayBtn1.addEventListener('click', () => {
-container1.classList.toggle('right-panel-active');
-});
-
-</script>
-<script>
-    const togglePassword = document.getElementById('togglePassword');
-const passwordInput = document.getElementById('password');
-
-togglePassword.addEventListener('click', function () {
-const type = passwordInput.getAttribute('type') === 'password' ? 'text' : 'password';
-passwordInput.setAttribute('type', type);
-this.classList.toggle('fa-eye-slash');
-});
-
-const toggleConfirmPassword = document.getElementById('toggleConfirmPassword');
-const confirmPasswordInput = document.getElementById('confirmPassword');
-
-toggleConfirmPassword.addEventListener('click', function () {
-const type = confirmPasswordInput.getAttribute('type') === 'password' ? 'text' : 'password';
-confirmPasswordInput.setAttribute('type', type);
-this.classList.toggle('fa-eye-slash');
-});
-
-
-
-</script>
-<script>
-    
-</script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
