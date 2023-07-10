@@ -1294,7 +1294,7 @@ a {
     }
     .Discover .brand{
         position: absolute;
-        top: 210px;
+        top: 2110px;
         left: 550px;
     }
     .bottom-content hr{
@@ -1317,8 +1317,8 @@ a {
         
     }
     .bottom-content{
-        position: absolute;
-        top: 2510px;
+        position: relative;
+        top: 710px;
     }
     .bottom-content .logo{
         position: absolute;
@@ -1360,21 +1360,22 @@ a {
     #border12{
         visibility: visible;
         position: absolute;
-        top: 1360px;
+        top: 2460px;
         left: 320px;
         width: 1200px;
     }
     #border13{
         visibility: visible;
         position: absolute;
-        top: 2250px;
+        top: 3450px;
         left: 320px;
         width: 1200px;
+        border: #000000;
     }
     #border14{
         visibility: visible;
         position: absolute;
-        top: 2850px;
+        top: 4250px;
         left: 320px;
         width: 1200px;
     }
@@ -1423,7 +1424,17 @@ a {
         left: 1230px;
         top: 120px;
     }
-   
+    .Faqs{
+        position: absolute;
+       
+       
+     
+    }
+    .Faqs .questions-container img{
+        position: relative;
+        margin-right:  510px;
+    }
+  
 }
 
 @media only screen and (max-width: 480px) {

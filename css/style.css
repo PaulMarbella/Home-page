@@ -1792,7 +1792,7 @@ a {
     .hamburger{
         display: block;
         position: fixed;
-        left: 1600px;
+        left: 2000px;
     
 
     }
@@ -1873,8 +1873,8 @@ a {
     }
     .right-side button{
         position: relative;
-        top: 40px;
-        left: 320px;
+        top: 30px;
+        left: 800px;
     
     }
     .bar{
@@ -1883,16 +1883,16 @@ a {
         top: 10px;
     }
     .Home_pic img{
-        width: 1800px;
+        width: 2300px;
     }
     .Home_pic h1{
         position: absolute;
-        left: 240px;
+        left: 520px;
         font-size: 35px;
     }
     .Home_pic button{
         position: absolute;
-        left: 850px;
+        left: 1130px;
     }
     .right-side{
         position: relative;
@@ -1901,7 +1901,7 @@ a {
     }
     .right-side .searchC{
         position: relative;
-        left: 230px;
+        left: 690px;
         top: 90px;
         
         
@@ -1914,29 +1914,30 @@ a {
         left: -20px;
 
     }
+   
     .Programs, .Programs2, .Programs3{
         visibility: hidden;
     }
     .Discover button{
         position: relative;
         top: -1510px;
-        left: 750px;
+        left: 950px;
         
     }
     .feature{
         position: absolute;
-        left: 110px;
+        left: 360px;
         bottom: 350px;
     }
     .Discover img{
         position: absolute;
-        left: 390px;
+        left: 590px;
         top: -580px;
     }
     .Discover .brand{
         position: absolute;
         top: 210px;
-        left: 550px;
+        left: 750px;
     }
     .bottom-content hr{
         position: absolute;
@@ -1945,9 +1946,9 @@ a {
     }
     .swiper{
         visibility: visible;
-        position: absolute;
+        position: relative;
         top: 1210px;
-        left: 680px ;
+        left: 850px ;
         width: 500px;
     }
     .swiper .program-pic  #pic2{
@@ -1958,8 +1959,9 @@ a {
         
     }
     .bottom-content{
-        position: absolute;
-        top: 2510px;
+        position: relative;
+        top: 1910px;
+        left: 200px;
     }
     .bottom-content .logo{
         position: absolute;
@@ -2002,21 +2004,21 @@ a {
         visibility: visible;
         position: absolute;
         top: 1360px;
-        left: 320px;
+        left: 520px;
         width: 1200px;
     }
     #border13{
         visibility: visible;
         position: absolute;
         top: 2250px;
-        left: 320px;
+        left: 520px;
         width: 1200px;
     }
     #border14{
         visibility: visible;
         position: absolute;
         top: 2850px;
-        left: 320px;
+        left: 520px;
         width: 1200px;
     }
     .card-body{
@@ -2061,8 +2063,21 @@ a {
     }
     .sub-menu-registerLogin{
         position: fixed;
-        left: 1230px;
+        left: 1690px;
         top: 120px;
+    }
+    .sub-menu-register .container{
+        width: 200vw;
+        padding-left: 50px;
+        margin-left: 200px;
+      
+       
+    }
+    .popup{
+        position: fixed;
+        top: 30%;
+       
+        
     }
    
 }

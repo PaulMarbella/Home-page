@@ -1166,7 +1166,7 @@ a {
     .hamburger{
         display: block;
         position: fixed;
-        left: 1600px;
+        left: 1700px;
     
 
     }
@@ -1243,12 +1243,12 @@ a {
     .right-side{
         position: relative;
         top: -140px;
-        left: 350px;
+        left: 380px;
     }
     .right-side button{
         position: relative;
         top: 40px;
-        left: 320px;
+        left: 460px;
     
     }
     .bar{
@@ -1309,8 +1309,8 @@ a {
     }
     .Discover .brand{
         position: absolute;
-        top: 210px;
-        left: 550px;
+        top: 2010px;
+        left: 600px;
     }
     .bottom-content hr{
         position: absolute;
@@ -1332,8 +1332,8 @@ a {
         
     }
     .bottom-content{
-        position: absolute;
-        top: 2510px;
+        position: relative;
+        top: 410px;
     }
     .bottom-content .logo{
         position: absolute;
@@ -1372,24 +1372,30 @@ a {
     .bottom-content hr{
        visibility: hidden;
     }
+    #twitter{
+        height: 75px;
+        position: relative;
+        top: 3613px;
+    }
     #border12{
         visibility: visible;
         position: absolute;
-        top: 1360px;
+        top: 2360px;
         left: 320px;
         width: 1200px;
     }
     #border13{
         visibility: visible;
         position: absolute;
-        top: 2250px;
+        top: 3150px;
         left: 320px;
         width: 1200px;
+        border: #000000;
     }
     #border14{
         visibility: visible;
         position: absolute;
-        top: 2850px;
+        top: 3850px;
         left: 320px;
         width: 1200px;
     }
@@ -1438,6 +1444,18 @@ a {
         left: 1230px;
         top: 120px;
     }
+    .How{
+        position: absolute;
+        top: 20px;
+        
+        
+    }
+    .How .container-how{
+        width: 2290px;
+        position: absolute;
+        left: 150px;
+        margin-left: -159px;
+    }
    
 }
 
@@ -1467,7 +1485,7 @@ a {
 	}
 
 	.searchC {
-		right: 10px;
+		left: 10px;
 		top: 40px;
 	}
 
