@@ -233,8 +233,8 @@ nav ul li a:hover::after{
 .right-side button{
     
     margin: 5px;
-    width: 119px;
-    height: 37px;
+    width: 159px;
+    height: 57px;
     
     border-radius: 13px;
     border: 1px solid black;
@@ -260,10 +260,16 @@ nav ul li a:hover::after{
     
     background: #0070C0;
     position: absolute;
-    top: -105px;
+    top: -115px;
     right: -1580px;
+    color: white;
+    font-family: 'Lato';
 
 
+}
+.login:hover{
+    color:#0070C0 ;
+    background-color: white;
 }
 .How{
     justify-self: center;
@@ -664,10 +670,10 @@ color: #0070C0;
 }
 .sub-menu-registerLogin{
     position: fixed;
-    width: 310px;
+    width: 280px;
     top: 95px;
     
-    left: 81%;
+    left: 80.2%;
     max-height:0px;
     transition: max-height 0.5s;
    overflow: hidden;
