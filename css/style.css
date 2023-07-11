@@ -1733,10 +1733,10 @@ a {
         top: -140px;
         left: 350px;
     }
-    .right-side button{
+    .nav-menu button{
         position: relative;
-        top: 30px;
-        left: 800px;
+        top: -330px;
+        left: 1790px;
     
     }
     .bar{
@@ -1761,19 +1761,20 @@ a {
         left: 950px;
         top: -180px;
     }
-    .right-side .searchC{
+     .searchC{
         position: relative;
-        left: 690px;
-        top: 90px;
+        left: 1590px;
+        top: -270px;
         
         
     }
+   
     .right-side hr{
         visibility: hidden;
     }
     .searchC.active{
         position: relative;
-        left: -20px;
+       
 
     }
    
