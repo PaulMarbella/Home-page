@@ -58,17 +58,18 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 0 24px;
+    width: 100%;
 }
 .nav-item{
     position: relative;
-    right: 930px;
-    margin: 20px;
+  
 }
+
 .nav-menu{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 30px;
+    gap: 2rem;
+  
+    width: 75%;
 }
 .nav-link{
     cursor: pointer;
@@ -220,7 +221,7 @@ nav ul li a:hover::after{
     
 }
 
-.right-side hr{
+.nav-menu hr{
     width: 51.009803771972656px;
    
     border: 1px solid grey;
@@ -230,7 +231,7 @@ nav ul li a:hover::after{
     top: 70px;
 
 }
-.right-side button{
+.nav-menu button{
     
     margin: 5px;
     width: 159px;
@@ -240,7 +241,7 @@ nav ul li a:hover::after{
     border: 1px solid black;
     align-items: center;
     justify-content: center;
-    position: relative;
+    position: absolute;
     font-family: "Lato";
     font-size: 16px;
     font-weight: 700;
@@ -260,8 +261,8 @@ nav ul li a:hover::after{
     
     background: #0070C0;
     position: absolute;
-    top: -115px;
-    right: -1580px;
+    right: 150px;
+    top: 40px;
     color: white;
     font-family: 'Lato';
 
@@ -662,7 +663,7 @@ color: #0070C0;
     position: fixed;
     width: 300px;
     top: 105px;
-    left: 18%;
+    left: 23%;
     max-height: 0px;
     overflow: hidden;
     transition: max-height 0.5s;

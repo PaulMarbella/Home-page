@@ -58,17 +58,18 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 0 24px;
+    width: 100%;
 }
 .nav-item{
     position: relative;
-    right: 930px;
-    margin: 20px;
+  
 }
+
 .nav-menu{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 30px;
+    gap: 2rem;
+  
+    width: 75%;
 }
 .nav-link{
     cursor: pointer;
@@ -220,7 +221,7 @@ nav ul li a:hover::after{
     
 }
 
-.right-side hr{
+.nav-menu hr{
     width: 51.009803771972656px;
    
     border: 1px solid grey;
@@ -230,7 +231,7 @@ nav ul li a:hover::after{
     top: 70px;
 
 }
-.right-side button{
+.nav-menu button{
     
     margin: 5px;
     width: 159px;
@@ -240,7 +241,7 @@ nav ul li a:hover::after{
     border: 1px solid black;
     align-items: center;
     justify-content: center;
-    position: relative;
+    position: absolute;
     font-family: "Lato";
     font-size: 16px;
     font-weight: 700;
@@ -256,12 +257,12 @@ nav ul li a:hover::after{
 
 
 }
-.login{
+ .login{
     
     background: #0070C0;
     position: absolute;
-    top: -115px;
-    right: -1580px;
+    right: 150px;
+    top: 40px;
     color: white;
     font-family: 'Lato';
 
@@ -271,6 +272,15 @@ nav ul li a:hover::after{
     color:#0070C0 ;
     background-color: white;
 
+}
+.Home_pic{
+    position:relative;
+    display: block;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
 }
 .Home_pic img{
     width: 100%;
@@ -303,7 +313,7 @@ display: flex;
     width: 221px;
 height: 48.94117736816406px;
 position: absolute;
-right: 760px;
+right: 800px;
 top: 610px;
 border-radius: 13px;
 background-color: #FF8B00;
@@ -327,6 +337,7 @@ color: #000000;
     position: relative;
     right: 480px;
     bottom: 960px;
+    margin-top: 20px;
 }
 .feature h1{
 position: absolute;
@@ -582,15 +593,16 @@ color: #3D426A;
   }
   .card-body{
     overflow: hidden;
+  
   }
   .Programs {
     width: 400px;
 height: 560px;
 padding-top: 20px;
 overflow: hidden;
-position: absolute;
+position: relative;
 left: 632px;
-top: -1000px;
+top: -400px;
 border-radius: none;
 
 background: #FFFFFF;
@@ -608,81 +620,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     text-shadow: 6px 2px 5px #003580  ;
     left: 20px;
   }
-  .Programs2 h1{
-    color: White;
-    position: absolute;
-    font-family: 'lato';
-    font-size: 15px;
-    width: 520px;
-    font-weight: 700;
-    text-shadow: 6px 2px 5px #003580  ;
-    left: 20px;
-  }
-  .Programs3 h1{
-    color: white;
-    position: absolute;
-    font-family: 'lato';
-    font-size: 15px;
-    width: 520px;
-    font-weight: 700;
-    text-shadow: 6px 2px 5px #003580  ;
-    left: 20px;
-  }
-.Programs2 {
-    width: 400px;
-    height: 560px;
-    padding-top: 20px;
-    overflow: hidden;
-    position: relative;
-    left: 1052px;
-    top: -1580px;
-    border-radius: none;
-    
-    background: #FFFFFF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    
-      
 
-}
-.Programs3 {
-    width: 400px;
-    height: 560px;
-    padding-top: 20px;
-    overflow: hidden;
-    position: relative;
-    left: 1475px;
-    top: -2140px;
-    border-radius: none;
-    
-    background: #FFFFFF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    
-      
-
-}
-.Programs3 h4{
-    position: relative;
-    left: 10px;
-    bottom: -590px;
-    font-family: 'lato';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 25px;
-color: black;
-}
-
-.Programs2 h4{
-    position: relative;
-    left: 10px;
-    bottom: -590px;
-    font-family: 'Libre Baskerville';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 25px;
-color: black;
-}
 
 .Programs h4{
     position: relative;
@@ -695,48 +633,11 @@ font-size: 12px;
 line-height: 25px;
 color: black;
 }
-.Programs2 h4{
-    position: relative;
-    left: 10px;
-    top: -380px;
-    font-family: 'Libre Baskerville';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 25px;
-color: black;
-}
-
-.Programs3 h4{
-    position: relative;
-    left: 10px;
-    top: -380px;
-    font-family: 'Libre Baskerville';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 25px;
-color: black;
-}
-
-
-.swiper {
-    width: 577px;
-    height: 642px;
-    padding-top: 20px;
-    width: 300px;
-    position: relative;
-    left: 32px;
-    top: 1700px;
-    visibility: hidden;
-    background: #FFFFFF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 
 
-}
 
-.swiper-slide {
+.card {
       
     font-size: 18px;
     background: #fff;
@@ -746,7 +647,7 @@ color: black;
   
   }
 
-  .swiper-slide img {
+  .card img {
 display: block;
 width: 50%;
 height: 50%;
@@ -756,7 +657,7 @@ height: 50%;
 position: relative;
 width: 619px;
 height: 31px;
-left: 20%;
+left: 32%;
 top: 70px;
 margin-left: 10px;
 
@@ -774,7 +675,7 @@ color: black;
     position: relative;
     width: 503px;
     height: 25px;
-    left: 80px;
+    left: 120px;
     top: 155px;
     margin: -30px;
     
@@ -792,7 +693,7 @@ color: black;
     position: relative;
     bottom: -120px;
     margin: 30px;
-    left: -205px;
+    left: -165px;
     }
 .container-bar{
     display: flex;
@@ -838,6 +739,7 @@ color: black;
     left: 0;
     top: 0;
     border: none;
+   
     }
     .pic2{
     position: absolute;
@@ -872,26 +774,28 @@ color: black;
 
 .card-container {
   width: 480px;
-  height: 580px;
+  height: 780px;
   position: relative;
+  margin-top: 30px;
+  padding: 20px;
  
  
       
 
 }
 
-.Programs  .swiper-slide, .Programs2  .swiper-slide , .Programs3 .swiper-slide{
+.Programs  .card{
   width: 480px;
   height: 580px;
 
   transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1)
 }
 
-.Programs .swiper-slide, .Programs2  .swiper-slide , .Programs3 .swiper-slide {
+.Programs .card {
     font-size: 22px;
     font-weight: 700;
     opacity: 1;
-   
+  
    display: flex;
     transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
    
@@ -899,67 +803,20 @@ color: black;
 
 .Programs  .card-body{
     position: absolute;
-    top: 155px;
+    top: 0px;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 220%;
     display: flex;
     flex-direction: column;
     align-items: center;
-  
     
     background: white;
-    
     cursor: pointer;
-    
-  
-    
     pointer-events: none;
     transform: translateY(100%);
     transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
   }
-.Programs2  .card-body{
-    position: absolute;
-    top: 155px;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  
-  
-    background: white;
-    
-    cursor: pointer;
-  
-    
-    pointer-events: none;
-    transform: translateY(100%);
-    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
-  }
-
-.Programs3  .card-body{
-    position: absolute;
-    top: 155px;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  
-  
-    background: white;
-    
-    cursor: pointer;
-  
-    
-    pointer-events: none;
-    transform: translateY(100%);
-    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
-  }
-
 
 
 
@@ -968,7 +825,7 @@ transform: translateY(0);
 cursor: pointer;
 }
 
-.Programs :hover .swiper-slide {
+.Programs :hover .card {
 transform: translateY(-30%);
 }
 .Programs2 :hover .card-body{
@@ -984,15 +841,15 @@ transform: translateY(0);
 cursor: pointer;
 }
 
-.Programs3 :hover .swiper-slide {
+.Programs3 :hover .card{
 transform: translateY(-30%);
 }
 .Discover{
-    position: relative;
+    position: absolute;
 }
 .Discover .contents{
     position: absolute;
-    top: 250px;
+    top: 2050px;
 }
 .Discover button{
     position: absolute;
@@ -1056,6 +913,11 @@ transform: translateY(-30%);
     justify-content: center;
     align-items: center;
     }
+    #bottom-border{
+        position: absolute;
+        top: 1120px;
+
+    }
     .border3{
         position: absolute;
     width: 76px;
@@ -1080,7 +942,7 @@ transform: translateY(-30%);
     .bottom-content .content{
         position: absolute;
         left: 60px;
-        top: -4000px;
+        top: -2200px;
         margin-top: -120px
     }
     .bottom-content .logo{
@@ -1290,7 +1152,7 @@ transform: translateY(-30%);
     position: fixed;
     width: 300px;
     top: 105px;
-    left: 18%;
+    left: 23%;
     max-height: 0px;
     overflow: hidden;
     transition: max-height 0.5s;

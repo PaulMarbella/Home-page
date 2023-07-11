@@ -29,6 +29,15 @@
                 <li class="nav-item">
                     <a href="./FAQs.html" class="nav-link">FAQs</a>
                 </li>
+                <div class="searchC">
+                    <div class="icon"></div>
+                    <div class="input">
+                        <input type="text" placeholder="Search" id="mysearch">
+                    </div>
+                    <span class="clear" onclick="document.getElementById('mysearch').value=''"></span>
+                </div>
+                <hr>
+                <button class="login" onclick="toggleMenu2()">Sign in</button>
             </ul>
          <!-- for mobile view -->
             <div class="hamburger" onclick="toggleMenu()">
@@ -37,17 +46,7 @@
                 <span class="bar"></span>
             </div>
         </nav>
-        <div class="right-side">
-            <div class="searchC">
-                <div class="icon"></div>
-                <div class="input">
-                    <input type="text" placeholder="Search" id="mysearch">
-                </div>
-                <span class="clear" onclick="document.getElementById('mysearch').value=''"></span>
-            </div>
-            <hr>
-            <button class="login" onclick="toggleMenu2()">Sign in</button>
-        </div>
+ 
     </header>
 
     <section class="Faqs">
